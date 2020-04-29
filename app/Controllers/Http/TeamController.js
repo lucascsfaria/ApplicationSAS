@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /** @typedef {import('@adonisjs/framework/src/Request')} Request */
 /** @typedef {import('@adonisjs/framework/src/Response')} Response */
@@ -90,4 +90,4 @@ class TeamController {
   }
 }
 
-module.exports = TeamController
+module.exports = TeamController;
