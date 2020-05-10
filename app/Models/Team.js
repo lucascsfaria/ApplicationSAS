@@ -22,6 +22,10 @@ class Team extends Model {
             .pivotModel('App/Models/UserTeam');
     }
 
+    projects () {
+      return this.hasMany('App/Models/Project')
+    }
+
 }
 
 module.exports = Team
